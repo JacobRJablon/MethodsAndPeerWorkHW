@@ -13,22 +13,32 @@
             // declaring our favorite numbers
             int jacobFavoriteNumber;
             // Jayson declare favNum
-
+            int jaysonFavoriteNumber;
             // initialize
             jacobFavoriteNumber = 10;
             // Jayson initialize favNum
+            jaysonFavoriteNumber = 8;
+
+            // subtract takes 2 numbers and returns the difference
+            static int Subtract(int a, int b){
+                 return a - b;
+            }
 
             // start of our actual program
             Console.WriteLine("I am Jacob and my favorite number is: " +  jacobFavoriteNumber);
             // Jayson console statement
+            Console.WriteLine("I am Jayson and my favorite number is: " + jaysonFavoriteNumber);
 
-            // calling the add function
-            int jacobAddedNums = Add(jacobFavoriteNumber, 2);
-            Console.WriteLine("Jacob's added numbers: " + jacobAddedNums);
+            // calling the add function 
+            int addedNums = Add(jacobFavoriteNumber, jaysonFavoriteNumber);
+            // display the result of addition
+            Console.WriteLine("The sum of our favorite numbers: " + addedNums);
 
             // calling the subtract function
-            // Jayson calls sub function
-            // Jayson console statement
+            int subtractedNums = Subtract(jacobFavoriteNumber, jaysonFavoriteNumber);
+            // display resut of subtraction
+            Console.WriteLine("The difference of our favorite numbers: " + subtractedNums);
+
         }
 
         /// <summary>
