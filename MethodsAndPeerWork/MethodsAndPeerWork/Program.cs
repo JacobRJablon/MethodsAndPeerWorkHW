@@ -12,11 +12,9 @@
         {
             // declaring our favorite numbers
             int jacobFavoriteNumber;
-            // Jayson declare favNum
             int jaysonFavoriteNumber;
             // initialize
             jacobFavoriteNumber = 10;
-            // Jayson initialize favNum
             jaysonFavoriteNumber = 8;
 
             // subtract takes 2 numbers and returns the difference
@@ -26,7 +24,6 @@
 
             // start of our actual program
             Console.WriteLine("I am Jacob and my favorite number is: " +  jacobFavoriteNumber);
-            // Jayson console statement
             Console.WriteLine("I am Jayson and my favorite number is: " + jaysonFavoriteNumber);
 
             // calling the add function 
@@ -46,7 +43,7 @@
         /// </summary>
         /// <param name="param1"></param>
         /// <param name="param2"></param>
-        /// <returns></returns>
+        /// <returns>sum of both parameters</returns>
         static int Add(int param1, int param2)
         {
             return param1 + param2;
